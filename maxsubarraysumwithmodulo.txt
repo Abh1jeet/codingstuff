@@ -31,6 +31,7 @@ int main() {
         
         sort(a,a+n);
         min=LONG_MAX;
+         //whenever there is crossing of modulo
         for(i=0;i<n-1;i++)
             {
             if(a[i].second > a[i+1].second)
